@@ -36,7 +36,8 @@ document.addEventListener('DOMContentLoaded', function (){
                     console.log(`nbc!-- eq: ${eq}`);
                 }
 
-                else {screen.append(btn.dataset.number);
+                else if (screen.textContent.length <=9) 
+                    {screen.append(btn.dataset.number);
                 }
             }
 
@@ -55,7 +56,7 @@ document.addEventListener('DOMContentLoaded', function (){
                         clear();
                         break;
                     case 'remove':
-                        let a = screen.textContent
+                        let a = screen.textContent;
                         b = a.substring(0, a.length - 1);
                         screen.textContent = b;
                         reset();
