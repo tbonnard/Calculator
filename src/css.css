@@ -54,19 +54,19 @@ body {
   }
 
   .calc {
-    background-color: rgb(189, 95, 8);
+    background-color: rgb(238, 138, 44);
   }
 
 .eq { 
-  background-color: rgb(72, 114, 72);
+  background-color: rgb(102, 177, 92);
   }
 
 .numb {
-  background-color: rgb(110, 146, 110);
+  background-color: rgb(163, 207, 163);
 }
 
 .info { 
-  background-color: rgb(131, 143, 255);
+  background-color: rgb(174, 183, 255);
   }
 
   @media (max-width: 600px) {
